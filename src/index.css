@@ -1,32 +1,29 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  background-color: skyblue;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 100%;
+	background-color: skyblue;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-.page-container{
-  width:800px;
-  margin: 10px auto;
-  padding: 30px;
-  background-color: white;
+.page-container {
+	width: 800px;
+	margin: 10px auto;
+	padding: 30px;
+	background-color: white;
 }
 .product-listing {
-  display:flex;
-  flex:1 ;
-  flex-wrap: wrap;
-  flex-direction: row;
-
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
-.product-listing .product-list-item{
-padding:10px 30px;
-width:200px;
+.product-listing .product-list-item {
+	padding: 10px 30px;
+	width: 200px;
 }
